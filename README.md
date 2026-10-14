@@ -57,8 +57,8 @@ This project uses Conda to manage its Python environment and dependencies.
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/data-analysis-visualization.git
-cd data-analysis-visualization
+git clone https://github.com/sunjirsanuj/Data_Analysis_and_Visualization.git
+cd Data_Analysis_and_Visualization
 ```
 
 ### 2. Create the Conda Environment
@@ -66,7 +66,7 @@ cd data-analysis-visualization
 Create a local environment inside the project directory:
 
 ```bash
-conda create -p ./dav_environment python=3.12
+conda create -p ./dav_environment python=3.10
 ```
 
 ### 3. Activate the Environment
@@ -78,7 +78,7 @@ conda activate ./dav_environment
 ### 4. Install Required Packages
 
 ```bash
-conda install numpy pandas matplotlib seaborn ipykernel
+pip install -r requirements.txt
 ```
 
 
